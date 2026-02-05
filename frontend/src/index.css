@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+/* Custom gradient background */
+.custom-gradient-bg {
+	background: hsla(92, 85%, 68%, 1);
+	background: -moz-linear-gradient(
+		90deg,
+		hsla(92, 85%, 68%, 1) 0%,
+		hsla(338, 98%, 49%, 1) 100%
+	);
+	background: -webkit-linear-gradient(
+		90deg,
+		hsla(92, 85%, 68%, 1) 0%,
+		hsla(338, 98%, 49%, 1) 100%
+	);
+	background: linear-gradient(
+		90deg,
+		hsla(92, 85%, 68%, 1) 0%,
+		hsla(338, 98%, 49%, 1) 100%
+	);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#A8F368", endColorstr="#F9035E", GradientType=1);
+}
+
+/* Custom gradient for chat container with transparency */
+.custom-gradient-chat {
+	background: hsla(92, 85%, 68%, 0.95);
+	background: -moz-linear-gradient(
+		90deg,
+		hsla(92, 85%, 68%, 0.95) 0%,
+		hsla(338, 98%, 49%, 0.95) 100%
+	);
+	background: -webkit-linear-gradient(
+		90deg,
+		hsla(92, 85%, 68%, 0.95) 0%,
+		hsla(338, 98%, 49%, 0.95) 100%
+	);
+	background: linear-gradient(
+		90deg,
+		hsla(92, 85%, 68%, 0.95) 0%,
+		hsla(338, 98%, 49%, 0.95) 100%
+	);
+}
