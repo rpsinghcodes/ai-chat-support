@@ -16,6 +16,7 @@
 		"sourceMap": true,
 		"allowSyntheticDefaultImports": true,
 		"types": ["node"],
+		"noEmit": true,
 		"allowImportingTsExtensions": true
 	},
 	"include": ["**/*.ts"],
