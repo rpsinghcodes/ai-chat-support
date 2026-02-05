@@ -2,12 +2,13 @@
 	"name": "backend",
 	"version": "1.0.0",
 	"description": "",
-	"main": "dist/server.ts",
+	"main": "dist/server.js",
 	"type": "module",
 	"scripts": {
-		"dev": "tsx watch server.ts",
-		"build": "tsc",
-		"start": "node dist/server.ts"
+		"dev": "tsx watch dist/server.ts",
+		"build": "npm run tsc",
+		"start":"tsx server.ts",
+    "tsc": "tsc -p tsconfig.json"
 	},
 	"keywords": [],
 	"author": "",
